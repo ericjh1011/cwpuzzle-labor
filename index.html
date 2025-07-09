@@ -5,10 +5,12 @@
   <meta charset="UTF-8">
   <title>슬기로운 근로생활 필수상식</title>
   <style>
-  #container {
-  max-width: 1000px;
-  margin: 0 auto;
+  .centered {
   text-align: center;
+}
+
+.centered table {
+  margin: 0 auto;
 }
   body {
     font-family: sans-serif;
@@ -52,10 +54,13 @@
 </style>
 </head>
 <body>
-<div id="container">
+<div class="centered">
   <h1>슬기로운 근로생활 필수상식 <br> 가로세로낱말퍼즐 </h1>
   <p>빈칸에 알맞은 글자를 입력하세요.</p>
   <table id="puzzle">
+  </table>
+  <button onclick="checkAnswers()">정답 확인</button>
+</div>
 <tbody>
 <tr>
 <td class="input-cell">
